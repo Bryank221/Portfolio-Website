@@ -28,11 +28,14 @@ export default function BeyondTheCode() {
       </ul>
 
       <div className="mt-6 border-t border-border pt-5">
-        <ul className="space-y-1.5">
+        <ul className="space-y-2.5">
           {LEADERSHIP_ROLES.map((r) => (
-            <li key={r.organisation} className="flex items-center justify-between gap-4 text-xs">
-              <span className="text-muted">{r.organisation}</span>
-              <span className="font-mono text-[10px] tracking-wide text-muted-dim">
+            <li
+              key={`${r.organisation}-${r.role}`}
+              className="flex items-start justify-between gap-4 text-xs"
+            >
+              <span className="min-w-0 text-muted">{r.organisation}</span>
+              <span className="w-28 shrink-0 text-right font-mono text-[10px] leading-relaxed tracking-wide text-muted-dim">
                 {r.role.toUpperCase()}
               </span>
             </li>

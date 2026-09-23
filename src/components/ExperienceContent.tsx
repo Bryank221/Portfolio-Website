@@ -91,11 +91,14 @@ export default function ExperienceContent() {
             <p className="mb-3 font-mono text-[10px] tracking-[0.15em] text-muted-dim">
               ROLES &amp; INVOLVEMENT
             </p>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               {LEADERSHIP_ROLES.map((r) => (
-                <li key={r.organisation} className="flex items-center justify-between gap-4 text-xs">
-                  <span className="text-muted">{r.organisation}</span>
-                  <span className="font-mono text-[10px] tracking-wide text-muted-dim">
+                <li
+                  key={`${r.organisation}-${r.role}`}
+                  className="flex items-start justify-between gap-4 text-xs"
+                >
+                  <span className="min-w-0 text-muted">{r.organisation}</span>
+                  <span className="w-28 shrink-0 text-right font-mono text-[10px] leading-relaxed tracking-wide text-muted-dim">
                     {r.role.toUpperCase()}
                   </span>
                 </li>

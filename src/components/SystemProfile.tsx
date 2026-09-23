@@ -8,7 +8,7 @@ const FIELDS = [
   { label: "DISCIPLINE", value: "MECHATRONICS & ROBOTICS" },
   { label: "FOCUS", value: "AI / SOFTWARE / ROBOTICS" },
   { label: "CURRENT STATE", value: "BUILDING" },
-  { label: "LOCATION", value: "MALAYSIA" },
+  { label: "LOCATION", value: "SUBANG JAYA, MALAYSIA" },
 ];
 
 export default function SystemProfile() {

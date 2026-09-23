@@ -8,22 +8,27 @@ export type ExperienceEntry = {
 export const EXPERIENCE: ExperienceEntry[] = [
   {
     year: "2026",
-    title: "AI / Robotics",
-    subtitle: "Final Year Project — AI Agent for Autonomous Robotic Control",
+    title: "Monash University Research Assistant",
+    subtitle: "Assisting in Behavioral Research on Student Engagement and Learning Outcomes",
   },
   {
     year: "2025",
-    title: "OpenSys",
-    subtitle: "Software Engineering Intern — .NET / APIs / SQL",
+    title: "Final Year Project",
+    subtitle: "AI Agent for Autonomous Robotic Control",
   },
   {
     year: "2024",
-    title: "MUSA",
-    subtitle: "School of Engineering Representative",
+    title: "OpenSys (M) Berhad",
+    subtitle: "Software Engineering Intern — .NET / APIs / SQL",
   },
   {
     year: "2023",
-    title: "Monash University",
+    title: "Xtend Services Sdn. Bhd.",
+    subtitle: "Finance Assistant - Data Entry",
+  },
+  {
+    year: "2022",
+    title: "Monash University Malaysia",
     subtitle: "Mechatronics & Robotics Engineering",
   },
 ];
@@ -34,6 +39,10 @@ export type LeadershipRole = {
 };
 
 export const LEADERSHIP_ROLES: LeadershipRole[] = [
+  { organisation: "MUSA", role: "MUSA Welfare Secretary" },
+  { organisation: "MUSA", role: "MUSA Activities Secretary" },
+  { organisation: "MUSA", role: "Vice President" },
+  { organisation: "MUSA", role: "School Of Engineering Representative" },
   { organisation: "MUSA Buddy Programme", role: "Secretary" },
   { organisation: "Monash Cup", role: "Secretary" },
   { organisation: "Monash Esports Club", role: "Secretary" },
