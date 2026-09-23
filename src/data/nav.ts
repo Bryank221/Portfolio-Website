@@ -12,8 +12,8 @@ export const SITE = {
 };
 
 export const SOCIAL_LINKS = {
-  github: null as string | null,
-  linkedin: null as string | null,
+  github: "https://github.com/Bryank221",
+  linkedin: "https://www.linkedin.com/in/bryan-kwong-ming-keat",
   email: "bryank221@gmail.com",
-  resume: null as string | null,
+  resume: "https://drive.google.com/file/d/1r1vKUzQsYHYFe7sc1pjEIKpRQHAptyRd/view?usp=sharing",
 };
